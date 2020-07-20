@@ -1,0 +1,8 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+interface:
+    path:       /interface/{type}
+    controller: App\Controller\InterfaceController::paiement
+    defaults:
+        type: "surPlace"
